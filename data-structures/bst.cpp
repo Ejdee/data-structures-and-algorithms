@@ -116,7 +116,7 @@ class BST
                 printPostorder(tree->right);
                 cout<<tree->val<<" ";
             }
-        }
+        };
 
         TreeNode* searchVal(int value){
             if(root==NULL){
